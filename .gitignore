@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------------
+# Third-party reference material
+#
+# design-reference/screenshots/reference/ contains captures and extracted
+# measurements taken from another person's public website. Those are retained
+# locally as internal design reference only and must not be republished from
+# this repository, which is the public GitHub Pages source.
+# ---------------------------------------------------------------------------
+design-reference/screenshots/reference/
+
+# Redundant copies of the previous version of this site, kept only as a local
+# historical snapshot.
+pritish-website-updated/
+pritish-website-updated (1)/
+pritish-website-updated.zip
+pritish-website-updated (1).zip
+
+# Local / environment
+.env
+.env.*
+*.log
+*.tmp
+
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backup markers
+BACKUP-INFO.txt

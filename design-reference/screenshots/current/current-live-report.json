@@ -1,0 +1,273 @@
+{
+  "url": "https://premlalpritish-wq.github.io/",
+  "label": "current-live",
+  "viewports": {
+    "desktop": {
+      "metrics": {
+        "title": "Pritish Premlal — Experiments in Building",
+        "scrollHeight": 10179,
+        "clientWidth": 1440,
+        "horizontalOverflow": 0,
+        "images": [],
+        "headings": [
+          "H1: I turn curiosity into experiments.",
+          "H2: What if the way I approach problems is itself the product?",
+          "H2: The same pattern keeps appearing.",
+          "H3: Engineering a Physique",
+          "H3: Engineering Skill Improvement",
+          "H3: Automating a Scientific Workflow",
+          "H3: Animocare",
+          "H2: The experiment becomes more interesting when reality pushes back.",
+          "H2: Project:Me",
+          "H3: Pharmaceutical R&D Intelligence",
+          "H3: Factory Opportunity Simulator",
+          "H3: Seaweed Biomass Valorisation",
+          "H3: Biosensor Development",
+          "H2: I don’t need to know how to do something yet. I need to be able to figure it out.",
+          "H3: Define the target.",
+          "H3: Find the gap.",
+          "H3: Build a feedback loop.",
+          "H3: Use tools aggressively.",
+          "H3: Make small changes.",
+          "H3: Let reality win.",
+          "H2: Find problems worth becoming obsessed with.",
+          "H3: MSc Biotechnology",
+          "H3: BSc Genetics",
+          "H3: Projects over credentials",
+          "H3: Animocare",
+          "H2: Interested in building?"
+        ],
+        "links": [
+          {
+            "t": "PP",
+            "href": "#top"
+          },
+          {
+            "t": "Thesis",
+            "href": "#thesis"
+          },
+          {
+            "t": "Evidence",
+            "href": "#evidence"
+          },
+          {
+            "t": "Animocare",
+            "href": "#animocare"
+          },
+          {
+            "t": "How I work",
+            "href": "#work"
+          },
+          {
+            "t": "Background",
+            "href": "#background"
+          },
+          {
+            "t": "See the evidence",
+            "href": "#evidence"
+          },
+          {
+            "t": "Read the thesis",
+            "href": "#thesis"
+          },
+          {
+            "t": "View on GitHub ↗",
+            "href": "https://github.com/premlalpritish-wq/automated-qPCR-reporting-pipeline"
+          },
+          {
+            "t": "LinkedIn ↗",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "Email ↗ ↗",
+            "href": "mailto:premlalpritish@gmail.com"
+          }
+        ],
+        "fontFamilies": [
+          "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "Arial",
+          "ui-monospace, SFMono-Regular, Menlo, monospace"
+        ]
+      },
+      "errors": []
+    },
+    "tablet": {
+      "metrics": {
+        "title": "Pritish Premlal — Experiments in Building",
+        "scrollHeight": 11008,
+        "clientWidth": 834,
+        "horizontalOverflow": 0,
+        "images": [],
+        "headings": [
+          "H1: I turn curiosity into experiments.",
+          "H2: What if the way I approach problems is itself the product?",
+          "H2: The same pattern keeps appearing.",
+          "H3: Engineering a Physique",
+          "H3: Engineering Skill Improvement",
+          "H3: Automating a Scientific Workflow",
+          "H3: Animocare",
+          "H2: The experiment becomes more interesting when reality pushes back.",
+          "H2: Project:Me",
+          "H3: Pharmaceutical R&D Intelligence",
+          "H3: Factory Opportunity Simulator",
+          "H3: Seaweed Biomass Valorisation",
+          "H3: Biosensor Development",
+          "H2: I don’t need to know how to do something yet. I need to be able to figure it out.",
+          "H3: Define the target.",
+          "H3: Find the gap.",
+          "H3: Build a feedback loop.",
+          "H3: Use tools aggressively.",
+          "H3: Make small changes.",
+          "H3: Let reality win.",
+          "H2: Find problems worth becoming obsessed with.",
+          "H3: MSc Biotechnology",
+          "H3: BSc Genetics",
+          "H3: Projects over credentials",
+          "H3: Animocare",
+          "H2: Interested in building?"
+        ],
+        "links": [
+          {
+            "t": "PP",
+            "href": "#top"
+          },
+          {
+            "t": "Thesis",
+            "href": "#thesis"
+          },
+          {
+            "t": "Evidence",
+            "href": "#evidence"
+          },
+          {
+            "t": "Animocare",
+            "href": "#animocare"
+          },
+          {
+            "t": "How I work",
+            "href": "#work"
+          },
+          {
+            "t": "Background",
+            "href": "#background"
+          },
+          {
+            "t": "See the evidence",
+            "href": "#evidence"
+          },
+          {
+            "t": "Read the thesis",
+            "href": "#thesis"
+          },
+          {
+            "t": "View on GitHub ↗",
+            "href": "https://github.com/premlalpritish-wq/automated-qPCR-reporting-pipeline"
+          },
+          {
+            "t": "LinkedIn ↗",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "Email ↗ ↗",
+            "href": "mailto:premlalpritish@gmail.com"
+          }
+        ],
+        "fontFamilies": [
+          "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "Arial",
+          "ui-monospace, SFMono-Regular, Menlo, monospace"
+        ]
+      },
+      "errors": []
+    },
+    "mobile": {
+      "metrics": {
+        "title": "Pritish Premlal — Experiments in Building",
+        "scrollHeight": 13957,
+        "clientWidth": 390,
+        "horizontalOverflow": 0,
+        "images": [],
+        "headings": [
+          "H1: I turn curiosity into experiments.",
+          "H2: What if the way I approach problems is itself the product?",
+          "H2: The same pattern keeps appearing.",
+          "H3: Engineering a Physique",
+          "H3: Engineering Skill Improvement",
+          "H3: Automating a Scientific Workflow",
+          "H3: Animocare",
+          "H2: The experiment becomes more interesting when reality pushes back.",
+          "H2: Project:Me",
+          "H3: Pharmaceutical R&D Intelligence",
+          "H3: Factory Opportunity Simulator",
+          "H3: Seaweed Biomass Valorisation",
+          "H3: Biosensor Development",
+          "H2: I don’t need to know how to do something yet. I need to be able to figure it out.",
+          "H3: Define the target.",
+          "H3: Find the gap.",
+          "H3: Build a feedback loop.",
+          "H3: Use tools aggressively.",
+          "H3: Make small changes.",
+          "H3: Let reality win.",
+          "H2: Find problems worth becoming obsessed with.",
+          "H3: MSc Biotechnology",
+          "H3: BSc Genetics",
+          "H3: Projects over credentials",
+          "H3: Animocare",
+          "H2: Interested in building?"
+        ],
+        "links": [
+          {
+            "t": "PP",
+            "href": "#top"
+          },
+          {
+            "t": "Thesis",
+            "href": "#thesis"
+          },
+          {
+            "t": "Evidence",
+            "href": "#evidence"
+          },
+          {
+            "t": "Animocare",
+            "href": "#animocare"
+          },
+          {
+            "t": "How I work",
+            "href": "#work"
+          },
+          {
+            "t": "Background",
+            "href": "#background"
+          },
+          {
+            "t": "See the evidence",
+            "href": "#evidence"
+          },
+          {
+            "t": "Read the thesis",
+            "href": "#thesis"
+          },
+          {
+            "t": "View on GitHub ↗",
+            "href": "https://github.com/premlalpritish-wq/automated-qPCR-reporting-pipeline"
+          },
+          {
+            "t": "LinkedIn ↗",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "Email ↗ ↗",
+            "href": "mailto:premlalpritish@gmail.com"
+          }
+        ],
+        "fontFamilies": [
+          "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "Arial",
+          "ui-monospace, SFMono-Regular, Menlo, monospace"
+        ]
+      },
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "url": "http://127.0.0.1:8899/",
+  "label": "final",
+  "reducedMotion": false,
+  "viewports": {
+    "desktop": {
+      "metrics": {
+        "title": "Pritish Premlal — Founder & Builder · AI, Scientific Computing, Biotech",
+        "scrollHeight": 13971,
+        "clientWidth": 1440,
+        "horizontalOverflow": 0,
+        "images": [
+          {
+            "src": "http://127.0.0.1:8899/assets/scaleup-evidence.webp",
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:8899/assets/qpcr-report-tables.webp",
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:8899/assets/qpcr-foldchange.webp",
+            "broken": false
+          }
+        ],
+        "headings": [
+          "H1: I turn hard problems into working systems.",
+          "H2: Things I am actually building.",
+          "H3: ScaleUp AI",
+          "H4: THE PROBLEM",
+          "H4: THE PIPELINE",
+          "H3: Animocare",
+          "H4: THE PROBLEM",
+          "H4: THE EXPERIMENT",
+          "H3: qPCR reporting pipeline",
+          "H4: THE PROBLEM",
+          "H4: THE PIPELINE",
+          "H3: ALSO IN PROGRESS",
+          "H4: Pharmaceutical R&D Intelligence",
+          "H4: Factory Opportunity Simulator",
+          "H4: Seaweed Biomass Valorisation",
+          "H4: Biosensor Development",
+          "H2: What if the way I approach problems is itself the product?",
+          "H3: Define the target.",
+          "H3: Find the gap.",
+          "H3: Build a feedback loop.",
+          "H3: Use tools aggressively.",
+          "H3: Make small changes.",
+          "H3: Let reality win.",
+          "H2: The same pattern keeps appearing.",
+          "H3: Project:Me",
+          "H3: Engineering a physique",
+          "H3: Engineering skill improvement",
+          "H2: The technical foundation behind the experiments.",
+          "H3: EDUCATION",
+          "H2: Interested in building?"
+        ],
+        "links": [
+          {
+            "t": "Skip to content",
+            "href": "#main"
+          },
+          {
+            "t": "PP. Pritish Premlal — home",
+            "href": "#home"
+          },
+          {
+            "t": "WORK",
+            "href": "#work"
+          },
+          {
+            "t": "METHOD",
+            "href": "#method"
+          },
+          {
+            "t": "EVIDENCE",
+            "href": "#evidence"
+          },
+          {
+            "t": "BACKGROUND",
+            "href": "#background"
+          },
+          {
+            "t": "CONTACT",
+            "href": "#contact"
+          },
+          {
+            "t": "EMAIL",
+            "href": "mailto:premlalpritish@gmail.com"
+          },
+          {
+            "t": "See the work",
+            "href": "#work"
+          },
+          {
+            "t": "Get in touch",
+            "href": "#contact"
+          },
+          {
+            "t": "GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq"
+          },
+          {
+            "t": "LinkedIn ↗ (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "ScaleUp AI ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "",
+            "href": "#work"
+          },
+          {
+            "t": "Open the live demo ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "Source ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq/scaleup-ai-website"
+          },
+          {
+            "t": "View on GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq/automated-qPCR-reporting-pipeline"
+          },
+          {
+            "t": "premlalpritish@gmail.com",
+            "href": "mailto:premlalpritish@gmail.com"
+          },
+          {
+            "t": "GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq"
+          },
+          {
+            "t": "LinkedIn ↗ (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "ScaleUp AI ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "Email",
+            "href": "mailto:premlalpritish@gmail.com"
+          }
+        ]
+      },
+      "errors": []
+    },
+    "tablet": {
+      "metrics": {
+        "title": "Pritish Premlal — Founder & Builder · AI, Scientific Computing, Biotech",
+        "scrollHeight": 14979,
+        "clientWidth": 834,
+        "horizontalOverflow": 0,
+        "images": [
+          {
+            "src": "http://127.0.0.1:8899/assets/scaleup-evidence.webp",
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:8899/assets/qpcr-report-tables.webp",
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:8899/assets/qpcr-foldchange.webp",
+            "broken": false
+          }
+        ],
+        "headings": [
+          "H1: I turn hard problems into working systems.",
+          "H2: Things I am actually building.",
+          "H3: ScaleUp AI",
+          "H4: THE PROBLEM",
+          "H4: THE PIPELINE",
+          "H3: Animocare",
+          "H4: THE PROBLEM",
+          "H4: THE EXPERIMENT",
+          "H3: qPCR reporting pipeline",
+          "H4: THE PROBLEM",
+          "H4: THE PIPELINE",
+          "H3: ALSO IN PROGRESS",
+          "H4: Pharmaceutical R&D Intelligence",
+          "H4: Factory Opportunity Simulator",
+          "H4: Seaweed Biomass Valorisation",
+          "H4: Biosensor Development",
+          "H2: What if the way I approach problems is itself the product?",
+          "H3: Define the target.",
+          "H3: Find the gap.",
+          "H3: Build a feedback loop.",
+          "H3: Use tools aggressively.",
+          "H3: Make small changes.",
+          "H3: Let reality win.",
+          "H2: The same pattern keeps appearing.",
+          "H3: Project:Me",
+          "H3: Engineering a physique",
+          "H3: Engineering skill improvement",
+          "H2: The technical foundation behind the experiments.",
+          "H3: EDUCATION",
+          "H2: Interested in building?"
+        ],
+        "links": [
+          {
+            "t": "Skip to content",
+            "href": "#main"
+          },
+          {
+            "t": "PP. Pritish Premlal — home",
+            "href": "#home"
+          },
+          {
+            "t": "Work",
+            "href": "#work"
+          },
+          {
+            "t": "Method",
+            "href": "#method"
+          },
+          {
+            "t": "Evidence",
+            "href": "#evidence"
+          },
+          {
+            "t": "Background",
+            "href": "#background"
+          },
+          {
+            "t": "Contact",
+            "href": "#contact"
+          },
+          {
+            "t": "Email",
+            "href": "mailto:premlalpritish@gmail.com"
+          },
+          {
+            "t": "See the work",
+            "href": "#work"
+          },
+          {
+            "t": "Get in touch",
+            "href": "#contact"
+          },
+          {
+            "t": "GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq"
+          },
+          {
+            "t": "LinkedIn ↗ (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "ScaleUp AI ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "",
+            "href": "#work"
+          },
+          {
+            "t": "Open the live demo ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "Source ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq/scaleup-ai-website"
+          },
+          {
+            "t": "View on GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq/automated-qPCR-reporting-pipeline"
+          },
+          {
+            "t": "premlalpritish@gmail.com",
+            "href": "mailto:premlalpritish@gmail.com"
+          },
+          {
+            "t": "GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq"
+          },
+          {
+            "t": "LinkedIn ↗ (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "ScaleUp AI ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "Email",
+            "href": "mailto:premlalpritish@gmail.com"
+          }
+        ]
+      },
+      "errors": []
+    },
+    "mobile": {
+      "metrics": {
+        "title": "Pritish Premlal — Founder & Builder · AI, Scientific Computing, Biotech",
+        "scrollHeight": 16843,
+        "clientWidth": 390,
+        "horizontalOverflow": 0,
+        "images": [
+          {
+            "src": "http://127.0.0.1:8899/assets/scaleup-evidence.webp",
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:8899/assets/qpcr-report-tables.webp",
+            "broken": false
+          },
+          {
+            "src": "http://127.0.0.1:8899/assets/qpcr-foldchange.webp",
+            "broken": false
+          }
+        ],
+        "headings": [
+          "H1: I turn hard problems into working systems.",
+          "H2: Things I am actually building.",
+          "H3: ScaleUp AI",
+          "H4: THE PROBLEM",
+          "H4: THE PIPELINE",
+          "H3: Animocare",
+          "H4: THE PROBLEM",
+          "H4: THE EXPERIMENT",
+          "H3: qPCR reporting pipeline",
+          "H4: THE PROBLEM",
+          "H4: THE PIPELINE",
+          "H3: ALSO IN PROGRESS",
+          "H4: Pharmaceutical R&D Intelligence",
+          "H4: Factory Opportunity Simulator",
+          "H4: Seaweed Biomass Valorisation",
+          "H4: Biosensor Development",
+          "H2: What if the way I approach problems is itself the product?",
+          "H3: Define the target.",
+          "H3: Find the gap.",
+          "H3: Build a feedback loop.",
+          "H3: Use tools aggressively.",
+          "H3: Make small changes.",
+          "H3: Let reality win.",
+          "H2: The same pattern keeps appearing.",
+          "H3: Project:Me",
+          "H3: Engineering a physique",
+          "H3: Engineering skill improvement",
+          "H2: The technical foundation behind the experiments.",
+          "H3: EDUCATION",
+          "H2: Interested in building?"
+        ],
+        "links": [
+          {
+            "t": "Skip to content",
+            "href": "#main"
+          },
+          {
+            "t": "PP. Pritish Premlal — home",
+            "href": "#home"
+          },
+          {
+            "t": "Work",
+            "href": "#work"
+          },
+          {
+            "t": "Method",
+            "href": "#method"
+          },
+          {
+            "t": "Evidence",
+            "href": "#evidence"
+          },
+          {
+            "t": "Background",
+            "href": "#background"
+          },
+          {
+            "t": "Contact",
+            "href": "#contact"
+          },
+          {
+            "t": "Email",
+            "href": "mailto:premlalpritish@gmail.com"
+          },
+          {
+            "t": "See the work",
+            "href": "#work"
+          },
+          {
+            "t": "Get in touch",
+            "href": "#contact"
+          },
+          {
+            "t": "GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq"
+          },
+          {
+            "t": "LinkedIn ↗ (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "ScaleUp AI ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "",
+            "href": "#work"
+          },
+          {
+            "t": "Open the live demo ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "Source ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq/scaleup-ai-website"
+          },
+          {
+            "t": "View on GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq/automated-qPCR-reporting-pipeline"
+          },
+          {
+            "t": "premlalpritish@gmail.com",
+            "href": "mailto:premlalpritish@gmail.com"
+          },
+          {
+            "t": "GitHub ↗ (opens in a new tab)",
+            "href": "https://github.com/premlalpritish-wq"
+          },
+          {
+            "t": "LinkedIn ↗ (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/pritish-premlal-9430022a1/"
+          },
+          {
+            "t": "ScaleUp AI ↗ (opens in a new tab)",
+            "href": "https://premlalpritish-wq.github.io/scaleup-ai-website/"
+          },
+          {
+            "t": "Email",
+            "href": "mailto:premlalpritish@gmail.com"
+          }
+        ]
+      },
+      "errors": []
+    }
+  }
+}

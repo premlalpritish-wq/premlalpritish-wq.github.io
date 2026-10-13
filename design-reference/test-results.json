@@ -1,0 +1,181 @@
+{
+  "A_console_errors": [],
+  "A_semantics": {
+    "h1Count": 1,
+    "headingSequence": "H1 H2 H3 H4 H4 H3 H4 H4 H3 H4 H4 H3 H4 H4 H4 H4 H2 H3 H3 H3 H3 H3 H3 H2 H3 H3 H3 H2 H3 H2",
+    "headingSkips": 0,
+    "landmarks": {
+      "header": 1,
+      "nav": 1,
+      "main": 1,
+      "footer": 1
+    },
+    "namelessLinks": 0,
+    "namelessButtons": 0,
+    "emptyText": [],
+    "skipLink": true,
+    "mainId": true,
+    "externalNoopener": 0,
+    "images": [
+      {
+        "src": "http://127.0.0.1:8899/assets/scaleup-evidence.webp",
+        "broken": false
+      },
+      {
+        "src": "http://127.0.0.1:8899/assets/qpcr-report-tables.webp",
+        "broken": false
+      },
+      {
+        "src": "http://127.0.0.1:8899/assets/qpcr-foldchange.webp",
+        "broken": false
+      }
+    ],
+    "langAttr": "en",
+    "title": "Pritish Premlal — Founder & Builder · AI, Scientific Computing, Biotech",
+    "description": "Pritish Premlal is a founder and builder working on AI, scientific computing and biotechnology — turning difficult scientific and technical problems into working, testable systems. Currently building ScaleUp AI."
+  },
+  "B_tab_order": [
+    {
+      "tag": "A",
+      "cls": "skip-link",
+      "text": "Skip to content",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "logo",
+      "text": "PP. Pritish Premlal — home",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "",
+      "text": "WORK",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "",
+      "text": "METHOD",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "",
+      "text": "EVIDENCE",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "",
+      "text": "BACKGROUND",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "",
+      "text": "CONTACT",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "nav-cta",
+      "text": "EMAIL",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "button primary",
+      "text": "See the work",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "button ghost",
+      "text": "Get in touch",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "",
+      "text": "GitHub ↗ (opens in a new tab)",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "",
+      "text": "LinkedIn ↗ (opens in a new tab",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "",
+      "text": "ScaleUp AI ↗ (opens in a new t",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    },
+    {
+      "tag": "A",
+      "cls": "scroll-cue",
+      "text": "Scroll to work",
+      "outline": "solid 2px rgb(199, 255, 74)"
+    }
+  ],
+  "B_skip_link_on_focus": {
+    "transform": "matrix(1, 0, 0, 1, 0, -72.175)",
+    "top": -60
+  },
+  "C_mobile_menu": {
+    "before": {
+      "expanded": "false",
+      "display": "none"
+    },
+    "open": {
+      "expanded": "true",
+      "label": "Close navigation",
+      "display": "flex",
+      "navH": 290
+    },
+    "afterEsc": {
+      "expanded": "false",
+      "display": "none"
+    },
+    "afterLink": {
+      "expanded": "false",
+      "display": "none",
+      "scrolledTo": 3419
+    }
+  },
+  "D_reduced_motion": {
+    "revealsHidden": 0,
+    "revealTotal": 25,
+    "tickerText": "building ScaleUp AI",
+    "edgeAnimation": "1e-05s"
+  },
+  "E_no_js": {
+    "visibleRevealBlocks": 25,
+    "revealTotal": 1,
+    "bodyChars": 9243
+  },
+  "F_progress_nav": {
+    "mid": {
+      "scale": "matrix(0.587866, 0, 0, 1, 0, 0)",
+      "navbarScrolled": true,
+      "current": [
+        "Work=-",
+        "Method=true",
+        "Evidence=-",
+        "Background=-",
+        "Contact=-"
+      ]
+    },
+    "topTransform": "matrix(0, 0, 0, 1, 0, 0)"
+  },
+  "G_outbound": [
+    "mailto:premlalpritish@gmail.com",
+    "https://github.com/premlalpritish-wq",
+    "https://www.linkedin.com/in/pritish-premlal-9430022a1/",
+    "https://premlalpritish-wq.github.io/scaleup-ai-website/",
+    "https://github.com/premlalpritish-wq/scaleup-ai-website",
+    "https://github.com/premlalpritish-wq/automated-qPCR-reporting-pipeline"
+  ]
+}
