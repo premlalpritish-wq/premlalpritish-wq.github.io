@@ -1,12 +1,18 @@
 # ---------------------------------------------------------------------------
-# Third-party reference material
+# Internal design materials
 #
-# design-reference/screenshots/reference/ contains captures and extracted
-# measurements taken from another person's public website. Those are retained
-# locally as internal design reference only and must not be republished from
-# this repository, which is the public GitHub Pages source.
+# The audit, redesign plan, review notes and before/after screenshots used to
+# develop this site are not part of the website. They now live at
+# D:\personal-site-design-reference\, outside this repository.
+#
+# That collection also holds captures and extracted measurements of another
+# person's public website, which must never be republished from here.
+#
+# GitHub Pages publishes the whole branch root with no way to exclude a
+# subtree, so anything tracked here is served publicly at
+# /design-reference/... Keep this repository to the site itself.
 # ---------------------------------------------------------------------------
-design-reference/screenshots/reference/
+design-reference/
 
 # Redundant copies of the previous version of this site, kept only as a local
 # historical snapshot.
