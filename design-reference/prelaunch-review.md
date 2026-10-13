@@ -1,12 +1,58 @@
 # Pre-Launch Review — Final Findings
 
 **Date:** 13 October 2026
-**Website repository:** `D:\personal-site`
-**Verified backup:** `D:\personal-site-backup-20261013-114221`
-**qPCR working clone:** `C:\Users\preni\AppData\Local\Temp\opencode\qpcr-work` (from `github.com/premlalpritish-wq/automated-qPCR-reporting-pipeline`)
-**Live personal website:** `https://premlalpritish-wq.github.io/` — **unchanged throughout**
+**Status:** ✅ **DEPLOYED**
+**Live URL:** https://premlalpritish-wq.github.io/
+**Deployed commit:** `dc9b195f56b3925e455b37b562dec18a410283fa`
+**Website repository:** `D:\personal-site` · remote `premlalpritish-wq/premlalpritish-wq.github.io` (branch `main`, GitHub Pages already enabled)
+**Verified backup:** `D:\personal-site-backup-20261013-114221` — retained, untouched
+**qPCR working clone:** `C:\Users\preni\AppData\Local\Temp\opencode\qpcr-work` — 2 local commits, **not pushed**
 
-> **Nothing has been pushed, deployed or published.** No remote was configured on either repository. The live site still serves the pre-redesign page.
+---
+
+## 0. Deployment record
+
+### Git history of the Pages repository
+
+The Pages repo was seeded through the GitHub web UI, so its history was a single `Add files via upload` commit sharing no ancestor with the local repository, which had been initialised fresh. Rather than force-push and discard what was already there, the deployed commit was merged with `-s ours` so it became an ancestor of the redesign. Publishing was therefore a **fast-forward** — nothing on GitHub was rewritten.
+
+```
+dc9b195  Preserve the deployed site's history before publishing the redesign
+2dcc44d  Shorten page title and meta description for search
+bf5ac3a  Personal site - redesigned release candidate
+56b451c  Add files via upload      <-- original deployed site, preserved
+```
+
+`git push origin main` → `56b451c..dc9b195  main -> main`. Remote `main` now equals local `HEAD` exactly.
+
+### Metadata
+
+| | Before | After | Target |
+|---|---|---|---|
+| `<title>` | 71 chars | **53** — `Pritish Premlal — Founder · AI & Scientific Computing` | 50–60 ✅ |
+| `meta description` | 211 chars | **159** | 150–160 ✅ |
+
+Both keep the founder positioning and the scientific-computing focus, and the description now names ScaleUp AI. `og:title` (35) and `og:description` were left unchanged.
+
+`.nojekyll` was added so Pages serves the committed bytes without a Jekyll build step.
+
+### Post-deployment verification (against the live URL)
+
+| Check | Result |
+|---|---|
+| Live URL | HTTP 200, new copy served, old copy absent |
+| `style.css` / `script.js` delivered | **byte-identical to local** (gzip: 8,208 and 2,001 bytes; 39,577 and 7,321 decoded) |
+| Lighthouse — accessibility / best-practices / SEO | **1.00 / 1.00 / 1.00**, 0 failing audits |
+| Console errors, 3 viewports | **0** |
+| Horizontal overflow, 3 viewports | **0px** |
+| Images | **3 / 3 loaded**, 0 broken |
+| Mobile navigation | opens, `aria-expanded` true, label flips, closes on Escape |
+| Anchor navigation | `#evidence` lands at 84px, `aria-current="true"` set |
+| Outbound links | 5 / 6 resolve 200 (LinkedIn 999 = bot-block) |
+| Social metadata | 11 OG + 5 Twitter tags; **`og:image` fetches 200 `image/png`**, 1200×630, 66,393 bytes |
+| `prefers-reduced-motion` | intact |
+| **No JavaScript** | **25 / 25** reveal blocks visible |
+| Screenshots | `design-reference/screenshots/live/` |
 
 ---
 
@@ -135,7 +181,7 @@ Housekeeping       Warn  GAPDH: fail; ACTB: missing
 
 Every flagged sample identifier survives and is correctly associated.
 
-### 2.8 Commit
+### 2.8 Commits
 
 ```
 fbae6ce3369563dcf24b3b4cc21976704087ba56
@@ -143,9 +189,18 @@ fix(report): escape pipes in QC markdown table cells
   src/cli.py                | 15 +++-
   tests/conftest.py         | 44 ++++++++++
   tests/test_qc_markdown.py | 204 +++++++++++++++++++++++++++++++++++++++++++++++
+
+616c5ca
+Repair .gitignore and fix a stale assertion in test_qc
+  .gitignore      |  9 ++++-----
+  tests/test_qc.py |  2 +-
 ```
 
-Staged content scanned for credentials and local paths — **clean**. `report.full.html` was **restored to HEAD and not committed**: it is generated output that embeds absolute `file:///` paths (HEAD contains the original author's `D:/Pritish/...`; regenerating here would have replaced those with this machine's temp paths). Working tree clean after commit. **Not pushed.**
+Suite after both commits: **18 passed, 0 failed**.
+
+**Neither commit has been pushed.** The public repository still points at `3f7ca88`.
+
+Staged content scanned for credentials and local paths — **clean**. `report.full.html` was **restored to HEAD and not committed**: it is generated output that embeds absolute `file:///` paths (HEAD contains the original author's `D:/Pritish/...`; regenerating here would have replaced those with this machine's temp paths).
 
 ---
 
@@ -357,30 +412,29 @@ The payload grew from 216,556 to 293,596 bytes because the qPCR card now ships t
 
 | # | Item | Severity | Action |
 |---|---|---|---|
-| 1 | **`tests/test_qc.py::test_replicate_variance_check_flags` still fails** — asserts `'range'`, engine emits `'ct_range'` | Medium | One-character fix. Left alone as unrelated work. Suite is 17/18. |
-| 2 | **`.gitignore` in the qPCR repo is corrupted** — contains a literal `@"` on line 1 and `git add .gitignore / git commit -m "chore: add .gitignore"` as its last lines, from a PowerShell here-string. Entries inside it are inert as a result. | Medium | Rewrite the file. Deliberately not touched here. |
-| 3 | **`tests/test_analysis.py` asserts nothing** — the file contains only a comment | Low | Delete or implement |
-| 4 | **`report.full.html` is tracked but gitignored** and embeds absolute `file:///` paths; the committed copy has the original author's local paths baked in | Low | `git rm --cached report.full.html` |
-| 5 | **qPCR clone lives in temp** | Low | The fix exists only as a local commit. Clone it somewhere permanent or push when approved. |
-| 6 | **LinkedIn link returns 999** to automated requests | Low | Bot-block. One manual click confirms it. |
-| 7 | **`title` is 71 chars and `description` 211** | Low | Both exceed the ~60/~160 sweet spot. Search engines truncate rather than penalise; the `og:title`/`og:description` used for social are shorter. Trim if you want. |
-| 8 | **Animocare has no visual evidence** | Low | Explicitly deferred by instruction. |
-| 9 | **ScaleUp AI validation record not shown** | Low | Its most differentiated feature is publishing where the system fails. |
-| 10 | **Website reference screenshots excluded from git** | Info | Kept out deliberately — third-party content. They remain on disk at `design-reference/screenshots/reference/`. |
-| 11 | **Deploying needs a decision on `pritish-website-updated*/` and the `.zip` files** | Info | Now gitignored, so they will not be pushed. They stay on disk. |
+| 1 | **`tests/test_analysis.py` asserts nothing** — the file contains only a comment | Low | Delete or implement |
+| 2 | **`report.full.html` is tracked but gitignored** and embeds absolute `file:///` paths; the committed copy has the original author's local paths baked in | Low | `git rm --cached report.full.html` |
+| 3 | **qPCR clone lives in temp** | Low | The fix exists only as a local commit. Clone it somewhere permanent or push when approved. |
+| 4 | **LinkedIn link returns 999** to automated requests | Low | Bot-block. One manual click confirms it. |
+| 5 | **Animocare has no visual evidence** | Low | Explicitly deferred by instruction. |
+| 6 | **ScaleUp AI validation record not shown** | Low | Its most differentiated feature is publishing where the system fails. |
+| 7 | **Website reference screenshots excluded from git** | Info | Kept out deliberately — third-party content. They remain on disk at `design-reference/screenshots/reference/`. |
+| 8 | **`design-reference/` is published with the site** | Info | The design notes, test results and 19 MB of before/after screenshots ship as static files under `/design-reference/`. Harmless, but visible. Move them out of the Pages root if you would rather they were private. |
 
 ---
 
 ## 8. Completion checklist
 
-- [x] qPCR defect fixed, 11 regression tests added, 17/18 suite passing (1 pre-existing failure)
+- [x] qPCR defect fixed, regression tests added, **18 passed / 0 failed**
 - [x] All **9** QC findings verified present in `report.md`, `report.full.html` and `report.pdf`
-- [x] qPCR fix committed locally as `fbae6ce`, **not pushed**
+- [x] qPCR `.gitignore` repaired and the stale assertion fixed, as **2 separate local commits**, **not pushed**
 - [x] Website project screenshots are real, regenerated output and ready
 - [x] Erosys Automation logo remains excluded
 - [x] Animocare unchanged, launch not delayed
-- [x] Personal website has a Git baseline; backup verified and preserved
+- [x] Personal website has a Git baseline; backup verified and **retained**
 - [x] Release candidate passes every applicable check
-- [x] **Live personal site unchanged throughout**
-- [x] **Nothing pushed, deployed or published; no remote configured on either repo**
-- [ ] **Owner approval to push / deploy**
+- [x] Metadata shortened to 53 / 159 characters
+- [x] **Deployed to https://premlalpritish-wq.github.io/** — fast-forward, deployed history preserved
+- [x] **Live site re-verified after deployment** — Lighthouse 1.00/1.00/1.00, 0 errors, 0 overflow, 3/3 images
+- [x] **No unrelated repository or project was touched**
+- [x] qPCR changes kept separate and unpushed

@@ -18,21 +18,21 @@
     "externalNoopener": 0,
     "images": [
       {
-        "src": "http://127.0.0.1:8899/assets/scaleup-evidence.webp",
+        "src": "https://premlalpritish-wq.github.io/assets/scaleup-evidence.webp",
         "broken": false
       },
       {
-        "src": "http://127.0.0.1:8899/assets/qpcr-report-tables.webp",
+        "src": "https://premlalpritish-wq.github.io/assets/qpcr-report-tables.webp",
         "broken": false
       },
       {
-        "src": "http://127.0.0.1:8899/assets/qpcr-foldchange.webp",
+        "src": "https://premlalpritish-wq.github.io/assets/qpcr-foldchange.webp",
         "broken": false
       }
     ],
     "langAttr": "en",
-    "title": "Pritish Premlal — Founder & Builder · AI, Scientific Computing, Biotech",
-    "description": "Pritish Premlal is a founder and builder working on AI, scientific computing and biotechnology — turning difficult scientific and technical problems into working, testable systems. Currently building ScaleUp AI."
+    "title": "Pritish Premlal — Founder · AI & Scientific Computing",
+    "description": "Pritish Premlal — founder and builder in AI, scientific computing and biotechnology. Currently building ScaleUp AI. Turning hard problems into working systems."
   },
   "B_tab_order": [
     {
