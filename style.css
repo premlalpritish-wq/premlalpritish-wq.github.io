@@ -52,12 +52,15 @@
     --muted-2:      #7c7c86;   /*  4.8:1 on --bg — AA for small text */
 
     /* accents */
-    --accent:       #c7ff4a;   /* 16.9:1 on --bg */
-    --accent-dim:   #8fae35;
-    --accent-ink:   #0b0f04;   /* 16.4:1 on --accent */
-    --accent-2:     #f0b429;   /* 10.7:1 on --bg */
+    --accent:       #a78bfa;   /*  7.3:1 on --bg */
+    --accent-hi:    #c4b5fd;   /* 10.8:1 on --bg - hover and highlights */
+    --accent-deep:  #7c3aed;   /*  3.5:1 on --bg - gradients and borders only */
+    --accent-ink:   #150c26;   /*  6.9:1 on --accent */
+    --accent-2:     #f0b429;   /* 10.7:1 on --bg - reserved for the
+                                    prototype badge, where amber reads as
+                                    "provisional" rather than decorative */
     --accent-2-ink: #1a1203;
-    --trajectory:   #8b9a5c;   /*  6.1:1 on the trajectory band */
+    --trajectory:   #9d8ccc;   /*  6.4:1 on the trajectory band */
 
     /* metrics */
     --content:      1180px;
@@ -240,11 +243,11 @@ strong {
 
     background: linear-gradient(
         to right,
-        var(--accent-dim),
+        var(--accent-deep),
         var(--accent)
     );
 
-    box-shadow: 0 0 10px rgba(199, 255, 74, .45);
+    box-shadow: 0 0 10px rgba(167, 139, 250, .5);
 
     transform: scaleX(0);
     transform-origin: left center;
@@ -597,7 +600,7 @@ strong {
 }
 
 .pill-row li:hover {
-    border-color: rgba(199, 255, 74, .4);
+    border-color: rgba(167, 139, 250, .45);
     color: var(--accent);
 }
 
@@ -641,7 +644,7 @@ strong {
 }
 
 .button.primary:hover {
-    background: #d6ff70;
+    background: var(--accent-hi);
 }
 
 .button.ghost {
@@ -753,20 +756,20 @@ strong {
 
 .sysmap-pulses circle {
     fill: var(--accent);
-    filter: drop-shadow(0 0 4px rgba(199, 255, 74, .8));
+    filter: drop-shadow(0 0 4px rgba(196, 181, 253, .85));
 }
 
 .sysmap-node rect {
     fill: rgba(255, 255, 255, .022);
-    stroke: rgba(199, 255, 74, .2);
+    stroke: rgba(167, 139, 250, .28);
     stroke-width: 1;
 
     transition: fill .25s ease, stroke .25s ease;
 }
 
 .sysmap-node:hover rect {
-    fill: rgba(199, 255, 74, .07);
-    stroke: rgba(199, 255, 74, .5);
+    fill: rgba(167, 139, 250, .10);
+    stroke: rgba(196, 181, 253, .6);
 }
 
 .sysmap-node circle {
@@ -782,8 +785,8 @@ strong {
 }
 
 .sysmap-node.hot rect {
-    stroke: rgba(199, 255, 74, .4);
-    fill: rgba(199, 255, 74, .05);
+    stroke: rgba(167, 139, 250, .45);
+    fill: rgba(167, 139, 250, .07);
 }
 
 .sysmap-node.hot text {
@@ -927,25 +930,25 @@ strong {
 
 .project:hover {
     transform: translateY(-3px);
-    border-color: rgba(199, 255, 74, .24);
+    border-color: rgba(167, 139, 250, .3);
     background: var(--surface-2);
 }
 
 .project-featured {
     padding: 52px;
 
-    border-color: rgba(199, 255, 74, .22);
+    border-color: rgba(167, 139, 250, .28);
     background:
         radial-gradient(
             110% 100% at 0% 0%,
-            rgba(199, 255, 74, .05),
+            rgba(167, 139, 250, .07),
             transparent 60%
         ),
         var(--surface);
 }
 
 .project-featured:hover {
-    border-color: rgba(199, 255, 74, .42);
+    border-color: rgba(167, 139, 250, .5);
 }
 
 .project-top {
@@ -1048,10 +1051,10 @@ strong {
     padding: 20px 22px;
 
     border: 1px solid var(--line);
-    border-left: 2px solid var(--accent-2);
+    border-left: 2px solid var(--accent);
     border-radius: 4px;
 
-    background: rgba(240, 180, 41, .04);
+    background: rgba(167, 139, 250, .05);
 
     font-size: .88rem;
 }
@@ -1060,7 +1063,7 @@ strong {
     display: block;
     margin-bottom: 6px;
 
-    color: var(--accent-2);
+    color: var(--accent);
 
     font-family: var(--mono);
     font-size: .72rem;
@@ -1084,7 +1087,7 @@ strong {
 
     padding-bottom: 3px;
 
-    border-bottom: 1px solid rgba(199, 255, 74, .35);
+    border-bottom: 1px solid rgba(167, 139, 250, .42);
 
     color: var(--accent);
 
@@ -1096,7 +1099,7 @@ strong {
 
 .text-link:hover {
     border-bottom-color: var(--accent);
-    color: #dcff8a;
+    color: var(--accent-hi);
 }
 
 .rail {
@@ -1159,7 +1162,7 @@ strong {
     border-radius: 6px;
     overflow: hidden;
 
-    background: #0a0d0b;
+    background: #0c0914;
 }
 
 .shot img {
@@ -1327,8 +1330,8 @@ strong {
 }
 
 .chip-live {
-    border-color: rgba(199, 255, 74, .35);
-    background: rgba(199, 255, 74, .08);
+    border-color: rgba(167, 139, 250, .42);
+    background: rgba(167, 139, 250, .12);
     color: var(--accent);
 }
 
@@ -1588,13 +1591,13 @@ strong {
     margin-top: 40px;
     padding: 26px 28px;
 
-    border: 1px solid rgba(199, 255, 74, .16);
+    border: 1px solid rgba(167, 139, 250, .22);
     border-radius: 4px;
 
     background: linear-gradient(
         180deg,
-        rgba(199, 255, 74, .055),
-        rgba(199, 255, 74, .015)
+        rgba(167, 139, 250, .055),
+        rgba(167, 139, 250, .015)
     );
 }
 
@@ -1748,14 +1751,14 @@ strong {
 
     padding-top: 44px;
 
-    border-top: 1px solid rgba(11, 15, 4, .22);
+    border-top: 1px solid rgba(21, 12, 38, .24);
 }
 
 .bet-label {
     display: block;
     margin-bottom: 18px;
 
-    color: rgba(11, 15, 4, .68);
+    color: rgba(21, 12, 38, .80);
 
     font-family: var(--mono);
     font-size: .72rem;
@@ -1767,7 +1770,7 @@ strong {
 .bet p {
     margin-bottom: 20px;
 
-    color: rgba(11, 15, 4, .8);
+    color: rgba(21, 12, 38, .82);
     font-size: 1.05rem;
 }
 
@@ -1785,10 +1788,10 @@ strong {
 
     padding: 7px 14px;
 
-    border: 1px solid rgba(11, 15, 4, .3);
+    border: 1px solid rgba(21, 12, 38, .34);
     border-radius: 999px;
 
-    color: rgba(11, 15, 4, .75);
+    color: rgba(21, 12, 38, .80);
 
     font-family: var(--mono);
     font-size: .72rem;
